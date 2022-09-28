@@ -2,27 +2,28 @@ import styled from "styled-components"
 
 export const Main = styled.main`
    font-family: 'Caros Soft';
+   color: #373737;
 `
 
 export const Title = styled.div`
    background-color: #F2F4F1; 
    padding-top: 10%;
-   padding-bottom: 5%;
+   padding: 5%;
    display: flex;
    flex-direction: column;
    align-items: center;
+   letter-spacing: 3px;
 `
 
 export const CardFoods = styled.div`
    background-color: #F2F4F1;
    display: flex;
    justify-content: space-evenly;    
-   padding-bottom: 30vh;
-
-   @media(max-width: 1157px) {
-        flex-direction: column;
-        align-items: center;
-    }
+   padding-bottom: 10vh;
+   @media(max-width: 950px) {
+      flex-direction: column;
+      align-items: center;
+   }
 `
 
 export const Food = styled.div`
@@ -39,11 +40,11 @@ export const Food = styled.div`
    &:hover{
       transform: scale(1.1);
    }
-
+   
    @media(max-width: 1157px) {
-        margin-bottom: 10vh;
-        width: 300px;
-    }
+      margin-bottom: 10vh;
+      width: 300px;
+   }
 `
 
 export const Images = styled.img`
@@ -63,32 +64,23 @@ export const ContentsFood = styled.div`
    justify-content: space-between;
 `
 
+export const Recipe = styled.h1`
+   font-weight: 300;
+`;
+
 export const AboutConteiner = styled.div`
    display: flex;
-
-   @media(max-width: 1242px) {
-        flex-direction: column;
-        align-items: center;
-    }
+   @media(max-width: 700px) {
+      flex-direction: column;
+      align-items: center;
+   }
 `
 
 export const SpoonImg = styled.img`
    width: 50%;
-
-   @media(max-width: 1242px){
+   @media(max-width: 700px){
+      width: 100%;
       margin-bottom: 5vh;
-   }
-
-   @media(max-width: 1179px){
-      width: 500px;
-   }
-
-   @media(max-width: 671px){
-      width: 400px;
-   }
-
-   @media(max-width: 431px){
-      width: 280px;
    }
 `
 
@@ -101,7 +93,16 @@ export const ContentsAbout = styled.div`
 
    p{
       width: 70%;
-      margin-top: 5%;
-      font-weight: 200;
+      margin: 5%;
+      font-weight: 300;
    }
 `
+
+export const H1 = styled.h1`
+   font-weight: 450;
+`;
+
+export const Line = styled.h1`
+   letter-spacing: -1px;
+   font-weight: bold;
+`;

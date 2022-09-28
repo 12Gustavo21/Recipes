@@ -5,7 +5,7 @@ export const Header = styled.header`
     width: 100%;
     height: 100vh;
     background-image: url(${Background});
-    background-position: center;
+    background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -31,6 +31,7 @@ export const Box = styled.section`
 
     @media(max-width: 950px) {
         justify-content: flex-end;
+        height: 10vh;
     }
 `;
 
@@ -96,11 +97,11 @@ export const Button = styled.button`
 `;
 
 export const Menu = styled.section`
-    width: 10%;
-    height: 5vh;
+    width: 15%;
     cursor: pointer;
     display: none;
     position: fixed;
+    z-index: 99999999999;
 
     @media(max-width: 950px) {
         display: flex;
@@ -111,8 +112,8 @@ export const Menu = styled.section`
 `;
 
 export const Line = styled.section`
-    width: 45%;
-    height: 1vh;
+    width: 50%;
+    height: .9vh;
     background: #373737;
     margin-top: 5px;
 
@@ -131,6 +132,7 @@ export const Main = styled.section`
 
     @media(max-width: 768px) {
         height: 70vh;
+        margin-bottom: 12vh;
     }
 `;
 
