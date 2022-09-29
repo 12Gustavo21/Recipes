@@ -12,7 +12,7 @@ export const Header = styled.header`
     font-family: 'Caros Soft';
 `;
 
-export const Container = styled.section`
+export const Container = styled.div`
     width: 100%;
     height: 100vh;
     display: flex;
@@ -22,7 +22,7 @@ export const Container = styled.section`
     border: 20px solid #fff;
 `;
 
-export const Box = styled.section`
+export const Box = styled.div`
     width: 100%;
     height: 20vh;
     display: flex;
@@ -35,7 +35,7 @@ export const Box = styled.section`
     }
 `;
 
-export const Box1 = styled.section`
+export const Box1 = styled.div`
     width: 60%;
     padding-left: 50px;
     display: flex;
@@ -52,7 +52,7 @@ export const Title = styled.h1`
     font-size: 2.5em;
 `;
 
-export const Box2 = styled.section`
+export const Box2 = styled.div`
     padding-right: 20px;
     display: flex;
     justify-content: space-between;
@@ -96,7 +96,7 @@ export const Button = styled.button`
     }
 `;
 
-export const Menu = styled.section`
+export const Menu = styled.div`
     width: 15%;
     cursor: pointer;
     display: none;
@@ -111,7 +111,7 @@ export const Menu = styled.section`
     }
 `;
 
-export const Line = styled.section`
+export const Line = styled.div`
     width: 50%;
     height: .9vh;
     background: #373737;
@@ -123,7 +123,7 @@ export const Line = styled.section`
     }
 `;
 
-export const Main = styled.section`
+export const Main = styled.div`
     width: 100%;
     height: 60vh;
     display: flex;

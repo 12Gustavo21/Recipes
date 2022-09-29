@@ -56,7 +56,7 @@ export const Images = styled.img`
 export const ContentsFood = styled.div`
    width: 100%;
    height: 15vh;
-   margin-top: 15%;
+   margin-top: 20%;
    display: flex;
    flex-direction: column;
    align-items: center;
@@ -66,6 +66,19 @@ export const ContentsFood = styled.div`
 
 export const Recipe = styled.h1`
    font-weight: 300;
+   position: relative;
+   
+   &::before {
+      content: "";
+      position: absolute;
+      top: -.9em;
+      left: 50%;
+      width: 2em;
+      height: 5px;
+      border-radius: 3px;
+      transform: translateX(-50%);
+      background: #373737;
+   }
 `;
 
 export const AboutConteiner = styled.div`
@@ -100,9 +113,17 @@ export const ContentsAbout = styled.div`
 
 export const H1 = styled.h1`
    font-weight: 450;
-`;
-
-export const Line = styled.h1`
-   letter-spacing: -1px;
-   font-weight: bold;
+   position: relative;
+   
+   &::after {
+      content: "";
+      position: absolute;
+      top: 1.7em;
+      left: 50%;
+      width: 2em;
+      height: 5px;
+      border-radius: 3px;
+      transform: translateX(-50%);
+      background: #373737;
+   }
 `;
