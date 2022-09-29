@@ -126,4 +126,8 @@ export const H1 = styled.h1`
       transform: translateX(-50%);
       background: #373737;
    }
+
+   @media(max-width: 500px) {
+      margin-bottom: 1.1em;
+   }
 `;

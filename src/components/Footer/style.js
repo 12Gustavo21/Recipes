@@ -67,6 +67,10 @@ export const Input = styled.input`
     @media(max-width: 975px) {
         width: 60%;
     }
+
+    @media(max-width: 500px) {
+        width: 80%;
+    }
 `;
 
 export const Button = styled.button`
@@ -83,7 +87,11 @@ export const Button = styled.button`
     &:hover {
         background: #373737;
         color: #fff;
-        padding: 10px 35px;
+        border-radius: 30px;
+    }
+
+    @media(max-width: 500px) {
+        padding: 15px 30%;
     }
 `; 
 
@@ -114,6 +122,10 @@ export const Box3 = styled.div`
     @media(max-width: 880px) {
         justify-content: center;
     }
+
+    @media(max-width: 500px) {
+        width: 100%;
+    }
 `;
 
 export const IconsBox = styled.div`
@@ -121,14 +133,23 @@ export const IconsBox = styled.div`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+
+    @media(max-width:400px) {
+        width: 80%;
+    }
 `;
 
 export const Icon = styled.img`
-    width: 90%;
+    max-width: 90%;
     transition: 1s all;
 
     &:hover {
         transform: rotate(20deg);
+        filter: drop-shadow(5px 10px 10px #000);
+    }
+
+    @media(max-width: 500px) {
+        max-width: 100%;
     }
 `;
 
@@ -158,6 +179,7 @@ export const List = styled.ul`
 
 export const Li = styled.li`
     font-size: 1.2em;
+    letter-spacing: 2px;
 
     a {
         color: #373737;
@@ -178,22 +200,23 @@ export const Li = styled.li`
 export const Reference = styled.div`
     background: #446061;
     width: 100%;
-    height: 8vh;
+    min-height: 8vh;
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     flex-direction: row;
-    font-size: 1.2em;
+    font-size: .9em;
     font-family: 'Roboto';
     color: #ffffff90;
-
-    @media(max-width: 790px) {
-        font-size: 1em;
-    }
+    word-break: break-all;
 
     a {
         color: #ffffff90;
         text-decoration: none;
+    }
+
+    @media(max-width: 500px) {
+        padding: 10px;
     }
 `;
