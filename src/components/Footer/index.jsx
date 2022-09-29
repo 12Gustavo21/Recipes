@@ -24,16 +24,16 @@ export default function index() {
             <S.FinalBox>
             <S.Box3>
                 <S.IconsBox>
-                    <a href="https://www.instagram.com/" target={"_blank"}>
+                    <a href="https://www.instagram.com/">
                         <S.Icon src={Instagram} alt="Instagram icon" />
                     </a>
-                    <a href="https://twitter.com/" target={"_blank"}>
+                    <a href="https://twitter.com/">
                         <S.Icon src={Twitter} alt="Twitter icon" />
                     </a>
-                    <a href="https://www.facebook.com/" target={"_blank"}>
+                    <a href="https://www.facebook.com/">
                         <S.Icon src={Facebook} alt="Facebook icon" />
                     </a>
-                    <a href="https://br.pinterest.com/" target={"_blank"}>
+                    <a href="https://br.pinterest.com/">
                         <S.Icon src={Pinterest} alt="Pinterest icon" />
                     </a>
                 </S.IconsBox>
@@ -59,7 +59,7 @@ export default function index() {
             Referência:
             <a
                 href="https://br.pinterest.com/pin/AVuDlMAl4GsQiM6nijH9YbG9bsNKpompSEOEHzig6GJ58AnUtMkSy7k/"
-                target={"_blank"}
+            
             >
                 https://br.pinterest.com/pin/AVuDlMAl4GsQiM6nijH9YbG9bsNKpompSEOEHzig6GJ58AnUtMkSy7k/
             </a>
